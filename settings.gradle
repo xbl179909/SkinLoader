@@ -1,0 +1,4 @@
+include ':skintheme'
+include ':skinlib'
+include ':app'
+rootProject.name = "SkinLoader"

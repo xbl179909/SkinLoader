@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    skin:enable="true">
+
+    <Button
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="详情"
+        android:textColor="@color/color_sel_skin_btn_text"
+        skin:enable="true"></Button>
+     <Button
+         android:id="@+id/setting"
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:text="设置"
+         android:textColor="@color/color_sel_skin_btn_text"
+         skin:enable="true">
+
+     </Button>
+
+    <Button
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/color_sel_skin_btn_text"
+        android:text="fragment"
+        skin:enable="true"/>
+</LinearLayout>
